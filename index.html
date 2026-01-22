@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stefan Drazic - Fitness Coaching</title>
+  <link rel="stylesheet" href="./src/styles.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav>
+    <ul>
+      <li><a href="./index.html">Home</a></li>
+      <li><a href="./privacy-policy.html">Privacy Policy</a></li>
+      <li><a href="./terms.html">Terms & Conditions</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <h1>Get Fit With Stefan Drazic</h1>
+      <p>Personalized fitness coaching from Stefan Drazic to help you achieve your goals</p>
+      <div class="cta-container">
+        <button class="cta-button" onclick="bookCall()">Book a Free Consultation Call</button>
+      </div>
+    </section>
+    
+    <!-- About Stefan -->
+    <section class="content-section">
+      <div style="display: flex; gap: 2rem; align-items: flex-start;">
+        <img src="./src/form.png" alt="Fitness coaching form" style="max-width: 250px; height: auto; border-radius: 10px; flex-shrink: 0;">
+        <div>
+          <h2>About Your Coach - Stefan Drazic</h2>
+          <p>
+            Hi, I'm Stefan Drazic, a passionate fitness coach dedicated to transforming lives through personalized training programs and nutrition guidance. With years of experience in fitness coaching, I've helped hundreds of clients achieve their goals, whether it's building muscle, losing weight, or improving overall health and wellness.
+          </p>
+          <p>
+            My approach combines science-backed training methodologies with practical nutrition strategies tailored to your unique lifestyle and goals. I believe in sustainable progress over quick fixes, and I'm committed to helping you develop lasting habits that keep you healthy and strong for life.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="content-section">
+      <h2>What I Offer</h2>
+      <ul>
+        <li><strong>Personalized Training Programs:</strong> Custom workout plans designed specifically for your fitness level, goals, and schedule</li>
+        <li><strong>Nutrition Coaching:</strong> Evidence-based nutrition plans to fuel your performance and support your body composition goals</li>
+        <li><strong>Progress Tracking:</strong> Regular check-ins and program adjustments to ensure you're making consistent progress</li>
+        <li><strong>Accountability & Support:</strong> Dedicated coaching support to keep you motivated and on track toward your goals</li>
+        <li><strong>Lifestyle Integration:</strong> Practical strategies to integrate fitness and healthy habits into your everyday life</li>
+      </ul>
+    </section>
+
+    <!-- Why Choose Stefan -->
+    <section class="content-section">
+      <h2>Why Choose Me?</h2>
+      <p>
+        <strong>Personalized Approach:</strong> Every client is unique. I create customized programs that respect your individual needs, limitations, and goals.
+      </p>
+      <p>
+        <strong>Science-Based Methods:</strong> I stay current with the latest research in exercise science and nutrition to provide you with evidence-based guidance.
+      </p>
+      <p>
+        <strong>Results-Driven:</strong> My coaching is focused on delivering real, measurable results that you can see and feel.
+      </p>
+      <p>
+        <strong>Long-Term Success:</strong> I don't just help you achieve short-term goals—I teach you how to maintain and build upon them for life.
+      </p>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="content-section">
+      <h2>Ready to Start Your Transformation?</h2>
+      <p>
+        The best time to start is today. Book a free consultation call with me to discuss your fitness goals, and I'll create a personalized plan to help you achieve them.
+      </p>
+      <div class="cta-container">
+        <button class="cta-button" onclick="bookCall()">Book Your Free Call Today</button>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>Business</h3>
+        <p>Stefan Drazic LLC</p>
+      </div>
+      <div class="footer-section">
+        <h3>Email</h3>
+        <p>contact@stefandraziccoaching.com</p>
+      </div>
+      <div class="footer-section">
+        <h3>Address</h3>
+        <p>75 E 3rd St Sheridan, WY 82801 USA</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>Copyright: &copy; 2026 Stefan Drazic LLC. All rights reserved.</p>
+      <p>
+        <a href="./privacy-policy.html" style="color: #4CAF50; text-decoration: none; margin-right: 1rem;">Privacy Policy</a> | 
+        <a href="./terms.html" style="color: #4CAF50; text-decoration: none; margin-left: 1rem;">Terms & Conditions</a>
+      </p>
+    </div>
+  </footer>
+
+  <script>
+    function bookCall() {
+      window.location.href = 'https://calendly.com/stefan_preduzetnik_coaching_1-1/konsultacija';
+    }
+  </script>
+</body>
+</html>

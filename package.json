@@ -1,0 +1,16 @@
+{
+  "name": "fitness-coaching-website",
+  "version": "1.0.0",
+  "description": "Fitness coaching website by Stefan Drazic LLC",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "keywords": ["fitness", "coaching"],
+  "author": "Stefan Drazic",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
