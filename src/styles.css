@@ -245,6 +245,17 @@ footer {
     padding: 0.8rem 2rem;
     font-size: 1rem;
   }
+
+  /* Stack image and text vertically on tablet */
+  .content-section > div[style*="display: flex"] {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .content-section img {
+    max-width: 100% !important;
+    width: 100%;
+  }
 }
 
 @media (max-width: 480px) {
